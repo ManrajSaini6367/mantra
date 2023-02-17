@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:food_app/Screens/Splash.dart';
 import 'Screens/Dashboard/Myntra_Project/Dashboard/29_Chat_Intake.dart';
 
 void main() {
@@ -23,6 +24,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const Chat_Intake());
+        home: const Splash());
   }
 }
